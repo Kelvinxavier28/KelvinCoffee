@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Cafe</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/233/233547.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <script src="navbar.js"></script>
+</head>
+<header class="header-area">
+    <!-- site-navbar start -->
+    <div class="navbar-area">
+      <div class="container">
+        <nav class="site-navbar">
+          <!-- site logo -->
+        <a href="index.html" class="site-logo">KelvinCoffee</a>
+  
+          <!-- site menu/nav -->
+          <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="talleres.html">Talleres</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+          </ul>
+  
+          <!-- nav-toggler for mobile version only -->
+          <button class="nav-toggler">
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </div><!-- navbar-area end -->
+  
+    <div class="intro-area">
+      <div class="container">
+        <h2>EL MEJOR CAFE ES DE KELVIN CAFE</h2>
+        <p>Toma ya y disfruta completamente su sabor</p>
+      </div>
+    </div>
+  </header>
+
+<body>
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contáctanos</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre" />
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field" type="email" placeholder="Tu E-mail" id="email" />
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" id="mensaje" placeholder="Comentarios"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario" />
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__bold">Kelvin Bardales</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="talleres.html" class="navegacion__enlace">Talleres</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contáctanos</a>
+                </nav>
+            </div>
+        </div>
+        <div class="colegio">
+            <p>Instituto San Vicente de Paúl &copy; Derechos Reservados Te Cae El Copyrigth Capo</p>
+        </div>
+    </footer>
+</body>
+</html>
